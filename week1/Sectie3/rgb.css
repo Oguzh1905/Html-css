@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.een {
+  background-color: yellow;
+}
+.twee {
+  background-color: red;
+}
+.drie {
+  background-color: blue;
+}
+.vier {
+  background-color: green;
+}
+.vijf {
+  background-color: white;
+}
+.zes {
+  background-color: purple;
+}
+.zeven {
+  background-color: gray;
+}
+.acht {
+  background-color: pink;
+}
+.negen {
+  background-color: orange;
+}
+.th {
+  padding: 200px;
+}
