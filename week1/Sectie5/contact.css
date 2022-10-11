@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.contactbox {
+.row {
+  text-align: center;
+}
+.contact {
   text-align: center;
   text-decoration: underline orange;
+  font-size: 25px;
 }
