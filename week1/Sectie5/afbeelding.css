@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* Full height */
+  height: 33%;
+  width: 30%;
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.gs {
+  /* Full height */
+  height: 33%;
+  width: 30%;
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
