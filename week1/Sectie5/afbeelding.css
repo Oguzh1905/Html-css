@@ -11,7 +11,7 @@ html {
 
 .bg {
   /* Full height */
-  height: 33%;
+  height: 32%;
   width: 30%;
 
   /* Center and scale the image nicely */
@@ -23,8 +23,20 @@ html {
 
 .gs {
   /* Full height */
-  height: 33%;
+  height: 32%;
   width: 30%;
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.noob:hover {
+  /* Full height */
+  height: 100%;
+  width: 30%;
+  border-radius: 3px;
 
   /* Center and scale the image nicely */
   background-position: left;
