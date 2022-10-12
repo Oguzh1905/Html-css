@@ -32,15 +32,21 @@ html {
   background-size: cover;
   display: flex;
 }
-.noob:hover {
-  /* Full height */
+.noob {
   height: 100%;
   width: 30%;
-  border-radius: 3px;
-
+  transition: 2s;
   /* Center and scale the image nicely */
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+}
+.noob img {
+  display: block;
+  border-radius: 5px;
+}
+.noob:hover {
+  transform: scale(1.7);
+  z-index: 2;
 }
