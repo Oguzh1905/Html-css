@@ -8,4 +8,30 @@ body {
 }
 .flexbox {
   text-align: center;
+  font-size: 50px;
+}
+.div1 {
+  width: 50%;
+  float: left;
+  text-align: center;
+  background-color: rgb(243, 133, 245);
+}
+#proper {
+  margin: 15px;
+}
+.div2 {
+  width: 50%;
+  float: right;
+  text-align: center;
+  background-color: rgb(243, 133, 245);
+}
+.container {
+  margin: 10px;
+}
+#create {
+  background-color: rgb(175, 2, 166);
+}
+#niks {
+  margin: 32px;
+  visibility: hidden;
 }
