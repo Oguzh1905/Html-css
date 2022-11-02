@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.noob {
+  background-color: lightgreen;
+
+  border: 5px solid rgb(255, 255, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.bar {
+  margin: 10px;
+  border: 2px solid black;
+  padding-left: 155px;
+  padding-right: 155px;
+}
