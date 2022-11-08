@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*height: 675px;*/
+  border: 3px solid black;
+}
+.flexx-child {
+  border: 3px solid green;
+  width: 145px;
+}
+#geel {
+  background-color: yellow;
+}
+#rood {
+  background-color: red;
+}
+#blauw {
+  background-color: blue;
+}
+#paars {
+  background-color: purple;
+}
