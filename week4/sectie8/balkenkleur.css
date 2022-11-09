@@ -1,0 +1,29 @@
+.flexx-child {
+  text-align: center;
+  width: 170px;
+  height: 345px;
+  padding: 50px;
+}
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 80px;
+}
+body {
+  background-color: pink;
+}
+
+#geel {
+  background-color: yellow;
+}
+#rood {
+  background-color: red;
+}
+#blauw {
+  background-color: blue;
+}
+#paars {
+  background-color: purple;
+}
