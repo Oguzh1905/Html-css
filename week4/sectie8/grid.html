@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="grid.css" />
-    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="grid.css" <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid</title>
   </head>
   <body>
-    <div class="grid-container">
-      <div class="grid-item item1">Grid</div>
-      <div class="grid-item item3">3</div>
-      <div class="grid-item item4">4</div>
+    <h1 class="gridbox">grid</h1>
+    <div class="container">
+      <div class="div1">
+        <p id="proper">Container Properties</p>
+        <p id="create">//Creates a grid</p>
+        <p id="proper">display: grid;</p>
+        <p id="create">//Direction, establishes main-axis</p>
+        <p id="proper">
+          grid-direction: row || row-reverse || column || columnreverse
+        </p>
+        <p id="create">//To wrap or not to wrap</p>
+        <p id="proper">grid-wrap: nowrap || wrap || wrapreverse</p>
+        <p id="create">//Shorthanded (direction wrap)</p>
+        <p id="proper">grid-flow: grid-direction flex-wrap</p>
+        <p id="create">//Allignement main axis</p>
+        <p id="proper">
+          justify-content: flex-start || flex end || center || space-between ||
+          space around || space-evenly
+        </p>
+        <p id="create">//Allignement cross axis</p>
+        <p id="proper">
+          Allign-items:stretch || grid-start || grid-end || center || baseline
+        </p>
+        <p id="create">//Allignement lines within the container</p>
+        <p id="proper">
+          align-content: normal || grid-start || grid-end || center ||
+          space-between || space-around || space-evenly || stretch
+        </p>
+      </div>
+      <div class="div2">
+        <p id="proper">Item properties</p>
+        <p id="create">//Order of the (grid) html-elements</p>
+        <p id="proper">order: integer (default: 0)</p>
+        <p id="create">//Ability to grow if necessary</p>
+        <p id="proper">grid-grow: integer (default: 0)</p>
+        <p id="create">//Ability to shrink if necessary</p>
+        <p id="proper">grid-shrink: positive integer (default: 1)</p>
+        <p id="create">//Defines default size of the item</p>
+        <p id="proper">grid-basis: lenght || keyword (default auto)</p>
+        <p id="create">//Shorthanded (grow shrink basis)</p>
+        <p id="proper">
+          grid: grid-grow grid-shrink grid-basis (default 0 1 auto)
+        </p>
+        <p id="create">//Override default Allignement form allign-items</p>
+        <p id="proper">
+          align-self: auto || grid-start || grid-end || center || baseline ||
+          stretch
+        </p>
+      </div>
     </div>
   </body>
 </html>
