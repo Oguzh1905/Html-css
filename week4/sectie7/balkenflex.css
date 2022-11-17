@@ -5,7 +5,6 @@
 }
 .noob {
   background-color: lightgreen;
-
   border: 5px solid rgb(255, 255, 0);
   display: flex;
   flex-direction: row;
