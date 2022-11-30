@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  overflow: hidden;
+}
+.topg {
+  color: rgb(219, 175, 122);
+  display: block;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://www.hartvoorautos.nl/wp-content/uploads/2021/06/Bugatti-Chiron-Super-Sport-testing-2.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 19px;
+}
+nav {
+  color: rgb(219, 175, 122);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 43%;
+}
+.logo {
+  font-size: 30px;
+}
+nav ul li {
+  color: rgb(219, 175, 122);
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: rgb(219, 175, 122);
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: darkgoldenrod;
+  transition: 0.3s;
+}
+img {
+  width: 300px;
+  position: absolute;
+  display: flex;
+}
+
+.andrew {
+  top: 270px;
+  left: 1150px;
+  height: 480px;
+  width: 400px;
+}
+.tristan {
+  top: 270px;
+  right: 1050px;
+  height: 480px;
+  width: 700px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+body {
+  background-color: tan;
+  color: black;
+}
+
+.button {
+  background-color: rgb(231, 0, 0);
+  opacity: 0.5;
+  border: 5px solid gray;
+  color: white;
+  padding: 40px 90px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  top: 400px;
+  right: 630px;
+  border-radius: 100%;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: color 0.4s linear;
+}
+.button:hover {
+  opacity: 1;
+}
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 3px solid darkgoldenrod;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="verzend"] {
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 38%;
+}
+
+input[type="verzend"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 20px;
+  margin-left: 35%;
+}
+
+.donatie {
+  width: 25%;
+  margin-top: 6px;
+}
+
+.bericht {
+  width: 75%;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .donatie,
+  .bericht,
+  input[type="verzend"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.hustler {
+  width: 10%;
+  right: 1%;
+  bottom: 80%;
+}
+
+.container-fotos {
+  padding-left: 220px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
+  grid-gap: 4px;
+  width: 200vw;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.item {
+  width: 100px;
+  height: 300px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item--1 {
+  grid-column: 1 / 1;
+}
+
+.item--2 {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+.item--3 {
+  grid-column: 4/4;
+  grid-row: 1/1;
+}
+
+.item--4 {
+  grid-column: 4/4;
+  grid-row: 2/2;
+}
+
+.item--5 {
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+
+.item--6 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: goldenrod;
+  text-align: center;
+}
