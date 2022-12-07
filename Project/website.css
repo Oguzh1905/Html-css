@@ -231,17 +231,15 @@ input[type="verzend"]:hover {
     width: 100%;
     margin-top: 0;
   }
-  .item {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-  }
   .container-fotos {
     padding-left: 100px;
     grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
-    grid-gap: 1000px;
     width: 200vw;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .button {
+    top: 290px;
+    right: 20px;
+    border-radius: 100%;
   }
 }
