@@ -51,16 +51,20 @@ img {
 }
 
 .andrew {
+  display: flex;
+  flex-wrap: wrap;
   top: 270px;
   left: 1150px;
   height: 480px;
-  width: 400px;
+  width: 30%;
 }
 .tristan {
+  display: flex;
+  flex-wrap: wrap;
   top: 270px;
-  right: 1080px;
+  right: 1150px;
   height: 480px;
-  width: 700px;
+  width: 40%;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -232,14 +236,32 @@ input[type="verzend"]:hover {
     margin-top: 0;
   }
   .container-fotos {
-    padding-left: 100px;
+    padding-left: 10px;
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
-    width: 200vw;
+    grid-gap: 2px;
+    width: 45vw;
+    margin-bottom: 10px;
     margin-top: 50px;
   }
   .button {
-    top: 290px;
-    right: 20px;
+    top: 490px;
+    right: 30px;
     border-radius: 100%;
+  }
+  .andrew,
+  .tristan {
+    display: none;
+  }
+  .item {
+    width: 100px;
+    height: 300px;
+    margin: 5px;
+  }
+  .topg {
+    color: rgb(219, 175, 122);
+    display: block;
+    height: 105vh;
+    width: 73vh;
   }
 }
