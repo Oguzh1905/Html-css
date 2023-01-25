@@ -4,13 +4,11 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
 }
-body {
-  overflow: hidden;
-}
+
 .topg {
   color: rgb(219, 175, 122);
   display: block;
-  height: 100vh;
+  height: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(https://www.hartvoorautos.nl/wp-content/uploads/2021/06/Bugatti-Chiron-Super-Sport-testing-2.jpg);
   background-size: cover;
@@ -236,22 +234,20 @@ input[type="verzend"]:hover {
     margin-top: 0;
   }
   .container-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
-    grid-gap: 2px;
-    width: 45vw;
-    margin-bottom: 10px;
+    width: 20vw;
+    margin-bottom: 0px;
     margin-top: 50px;
   }
+
   .button {
     top: 490px;
     right: 30px;
     border-radius: 100%;
-  }
-  .andrew,
-  .tristan {
-    display: none;
   }
   .item {
     width: 100px;
@@ -259,9 +255,7 @@ input[type="verzend"]:hover {
     margin: 5px;
   }
   .topg {
-    color: rgb(219, 175, 122);
-    display: block;
-    height: 105vh;
-    width: 73vh;
+    background-size: auto 100%;
+    background-position: center center;
   }
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .navbar {
+        overflow: auto;
+        text-align: left;
+      }
+      .navbar a {
+        float: left;
+        width: 16.66666%;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+      }
+      @media only screen and (max-width: 600px) {
+        /* Change the width of the links to 50% on screens smaller than 600px */
+        .navbar a {
+          width: 33.33%;
+        }
+      }
+      .navbar a:nth-child(1) {
+        background-color: red;
+      }
+      .navbar a:nth-child(2) {
+        background-color: blue;
+      }
+      .navbar a:nth-child(3) {
+        background-color: purple;
+      }
+      .navbar a:nth-child(4) {
+        background-color: yellow;
+      }
+      .navbar a:nth-child(5) {
+        background-color: green;
+      }
+      .navbar a:nth-child(6) {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#diensten">Diensten</a>
+      <a href="#producten">Producten</a>
+      <a href="#onsteam">Ons Team</a>
+      <a href="#onzewerkwijze">Onze Werkwijze</a>
+      <a href="#Cotact">Contact</a>
+    </div>
+  </body>
+</html>
